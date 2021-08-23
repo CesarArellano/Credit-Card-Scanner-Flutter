@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4
+- Fixing problems to run your app in iOS
+
+## 1.0.3
+- Fixing iOS Bugs
+
 ## 1.0.2
 - Formating files.
 

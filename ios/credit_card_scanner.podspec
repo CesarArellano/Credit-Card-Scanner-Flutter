@@ -4,9 +4,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'card_scanner'
+  s.name             = 'credit_card_scanner'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin.'
+  s.summary          = 'Fast, Accurate and Secure Credit & Debit card scanning library for flutter. This package is a fork of the original.'
   s.description      = <<-DESC
 A new Flutter plugin.
                        DESC
