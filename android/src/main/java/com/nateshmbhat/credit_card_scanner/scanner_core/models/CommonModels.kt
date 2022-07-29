@@ -1,4 +1,4 @@
-package com.nateshmbhat.card_scanner.scanner_core.models
+package com.nateshmbhat.credit_card_scanner.scanner_core.models
 
 import com.google.mlkit.vision.text.Text
 

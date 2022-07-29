@@ -1,5 +1,5 @@
 PODS:
-  - card_scanner (0.0.1):
+  - credit_card_scanner (0.0.1):
     - Flutter
     - GoogleMLKit/TextRecognition
   - Flutter (1.0.0)
@@ -58,7 +58,7 @@ PODS:
   - Protobuf (3.14.0)
 
 DEPENDENCIES:
-  - card_scanner (from `.symlinks/plugins/card_scanner/ios`)
+  - credit_card_scanner (from `.symlinks/plugins/credit_card_scanner/ios`)
   - Flutter (from `Flutter`)
 
 SPEC REPOS:
@@ -77,13 +77,13 @@ SPEC REPOS:
     - Protobuf
 
 EXTERNAL SOURCES:
-  card_scanner:
-    :path: ".symlinks/plugins/card_scanner/ios"
+  credit_card_scanner:
+    :path: ".symlinks/plugins/credit_card_scanner/ios"
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  card_scanner: 2ef22da164d7fc6dba57c41bf8757fd5fda53c9f
+  credit_card_scanner: 2ef22da164d7fc6dba57c41bf8757fd5fda53c9f
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   GoogleDataTransport: 1024b1a4dfbd7a0e92cb20d7e0a6f1fb66b449a4
   GoogleMLKit: 2a9032170872c4464d516700a04661d6e5b98a77

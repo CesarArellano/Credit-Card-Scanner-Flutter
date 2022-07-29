@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.5
+- Updated for Flutter 3
+
 ## 1.0.4
 - Fixing problems to run your app in iOS
 

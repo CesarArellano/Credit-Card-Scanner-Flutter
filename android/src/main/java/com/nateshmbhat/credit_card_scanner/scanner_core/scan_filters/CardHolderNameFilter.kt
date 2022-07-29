@@ -1,11 +1,11 @@
-package com.nateshmbhat.card_scanner.scanner_core.scan_filters
+package com.nateshmbhat.credit_card_scanner.scanner_core.scan_filters
 
 import android.util.Log
 import com.google.mlkit.vision.text.Text
-import com.nateshmbhat.card_scanner.logger.debugLog
-import com.nateshmbhat.card_scanner.scanner_core.constants.CardHolderNameConstants
-import com.nateshmbhat.card_scanner.scanner_core.constants.CardScannerRegexps
-import com.nateshmbhat.card_scanner.scanner_core.models.*
+import com.nateshmbhat.credit_card_scanner.logger.debugLog
+import com.nateshmbhat.credit_card_scanner.scanner_core.constants.CardHolderNameConstants
+import com.nateshmbhat.credit_card_scanner.scanner_core.constants.CardScannerRegexps
+import com.nateshmbhat.credit_card_scanner.scanner_core.models.*
 import java.util.*
 import kotlin.math.max
 import kotlin.math.min

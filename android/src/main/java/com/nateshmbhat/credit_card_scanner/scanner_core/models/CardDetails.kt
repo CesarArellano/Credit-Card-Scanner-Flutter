@@ -1,4 +1,4 @@
-package com.nateshmbhat.card_scanner.scanner_core.models
+package com.nateshmbhat.credit_card_scanner.scanner_core.models
 
 import android.os.Parcel
 import android.os.Parcelable

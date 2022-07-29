@@ -1,4 +1,4 @@
-package com.nateshmbhat.card_scanner.scanner_core.constants
+package com.nateshmbhat.credit_card_scanner.scanner_core.constants
 
 abstract class CardScannerRegexps {
   companion object {

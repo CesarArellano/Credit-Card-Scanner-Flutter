@@ -1,9 +1,9 @@
-group 'com.nateshmbhat.card_scanner'
+group 'com.nateshmbhat.credit_card_scanner'
 version '1.0'
 
 buildscript {
     ext {
-        kotlin_version = "1.4.21"
+        kotlin_version = "1.6.10"
     }
     repositories {
         google()

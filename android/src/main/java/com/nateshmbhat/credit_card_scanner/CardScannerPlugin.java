@@ -1,4 +1,4 @@
-package com.nateshmbhat.card_scanner;
+package com.nateshmbhat.credit_card_scanner;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 
 import androidx.annotation.NonNull;
 
-import com.nateshmbhat.card_scanner.scanner_core.models.CardDetails;
-import com.nateshmbhat.card_scanner.scanner_core.models.CardScannerOptions;
+import com.nateshmbhat.credit_card_scanner.scanner_core.models.CardDetails;
+import com.nateshmbhat.credit_card_scanner.scanner_core.models.CardScannerOptions;
 
 import java.util.Map;
 
@@ -32,7 +32,7 @@ public class CardScannerPlugin implements FlutterPlugin, MethodCallHandler, Acti
     /// when the Flutter Engine is detached from the Activity
     public static MethodChannel channel;
 
-    public final static String METHOD_CHANNEL_NAME = "nateshmbhat/card_scanner";
+    public final static String METHOD_CHANNEL_NAME = "nateshmbhat/credit_card_scanner";
     private Context context;
     private Result pendingResult;
 
@@ -64,7 +64,7 @@ public class CardScannerPlugin implements FlutterPlugin, MethodCallHandler, Acti
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
         if ("scan_card".equals(call.method)) {
             if (activity == null) {
-                result.error("no_activity", "card_scanner plugin requires a foreground activity.", null);
+                result.error("no_activity", "credit_card_scanner plugin requires a foreground activity.", null);
                 return;
             }
             if (pendingResult != null) {

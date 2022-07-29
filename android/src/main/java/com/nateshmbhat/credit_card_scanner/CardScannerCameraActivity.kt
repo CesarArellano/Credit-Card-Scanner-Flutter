@@ -1,4 +1,4 @@
-package com.nateshmbhat.card_scanner
+package com.nateshmbhat.credit_card_scanner
 
 import android.Manifest
 import android.animation.ObjectAnimator
@@ -19,10 +19,10 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.TextRecognizer
-import com.nateshmbhat.card_scanner.logger.debugLog
-import com.nateshmbhat.card_scanner.scanner_core.CardScanner
-import com.nateshmbhat.card_scanner.scanner_core.models.CardDetails
-import com.nateshmbhat.card_scanner.scanner_core.models.CardScannerOptions
+import com.nateshmbhat.credit_card_scanner.logger.debugLog
+import com.nateshmbhat.credit_card_scanner.scanner_core.CardScanner
+import com.nateshmbhat.credit_card_scanner.scanner_core.models.CardDetails
+import com.nateshmbhat.credit_card_scanner.scanner_core.models.CardScannerOptions
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

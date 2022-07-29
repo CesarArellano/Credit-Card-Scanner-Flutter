@@ -1,7 +1,7 @@
-package com.nateshmbhat.card_scanner.logger
+package com.nateshmbhat.credit_card_scanner.logger
 
 import android.util.Log
-import com.nateshmbhat.card_scanner.scanner_core.models.CardScannerOptions
+import com.nateshmbhat.credit_card_scanner.scanner_core.models.CardScannerOptions
 
 fun debugLog(message: String, scannerOptions: CardScannerOptions?, tag: String = "card_scanner_debug_log") {
   if (scannerOptions != null) {
